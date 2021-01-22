@@ -1,10 +1,14 @@
 import React from "react"
 import { Layout } from "../layout"
-
+import { Hero } from "../components/Hero"
+import { About } from "../components/About"
+import { CTA } from "../components/CTA"
 const IndexPage = () => {
   return (
     <Layout>
-      <p>hey</p>
+      <Hero />
+      <About />
+      <CTA />
     </Layout>
   )
 }

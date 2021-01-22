@@ -1,9 +1,7 @@
 import styled from "styled-components"
 
 export const H1 = styled.h1`
-  font-size: 72px;
-  line-height: 72px;
-  font-weight: normal;
+  font-size: 2em;
 `
 export const H2 = styled.h2`
   font-weight: normal;

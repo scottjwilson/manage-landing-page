@@ -1,13 +1,16 @@
-export const themes = {
-  light: {
-    text1: `#36536B`,
-    text2: `rgba(0,0,0,0.7)`,
-    secondary: "#1B262F",
-    backgroundColor: `#f2f2f2`,
+export const colors = {
+  primary: {
+    intro: `hsl(217, 28%, 15%)`,
+    main: `hsl(218, 28%, 13%)`,
+    footer: `#1D1E25`,
+    testimonials: `hsl(219, 30%, 18%)`,
   },
-  dark: {
-    text1: `white`,
-    text2: `rgba(255,255,255,0.7)`,
-    backgroundColor: `#1F1F47`,
+  accent: {
+    cyan: `hsl(176, 68%, 64%)`,
+    blue: `hsl(198, 60%, 50%)`,
+    error: `hsl(0, 100%, 63%)`,
+  },
+  neutral: {
+    white: `hsl(0, 0%, 100%)`,
   },
 }
