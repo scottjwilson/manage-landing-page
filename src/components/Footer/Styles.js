@@ -1,9 +1,9 @@
 import styled from "styled-components"
 import { device } from "../../styles/MediaQueries"
 import { Button } from "../../styles/ComponentStyles"
-import { colors } from "../../styles/ColorStyles"
+import { theme } from "../../styles/ColorStyles"
 export const Wrapper = styled.footer`
-  background-color: ${colors.primary.footer};
+  background-color: ${theme.primary.footer};
 `
 export const Mailbox = styled.div``
 export const Links1 = styled.div``

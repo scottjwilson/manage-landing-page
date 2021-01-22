@@ -1,14 +1,17 @@
-export const colors = {
+export const theme = {
   primary: {
-    intro: `hsl(217, 28%, 15%)`,
+    light: `#hsl(0, 0%, 98%)`,
+    dark: `hsl(228, 39%, 23%)`,
+    veryDark: `hsl(228, 39%, 23%)`,
+
     main: `hsl(218, 28%, 13%)`,
     footer: `#1D1E25`,
     testimonials: `hsl(219, 30%, 18%)`,
   },
   accent: {
-    cyan: `hsl(176, 68%, 64%)`,
-    blue: `hsl(198, 60%, 50%)`,
-    error: `hsl(0, 100%, 63%)`,
+    red: `hsl(12, 88%, 59%)`,
+    greyBlue: `hsl(227, 12%, 61%)`,
+    danger: `hsl(13, 100%, 96%)`,
   },
   neutral: {
     white: `hsl(0, 0%, 100%)`,

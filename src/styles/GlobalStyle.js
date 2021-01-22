@@ -1,10 +1,11 @@
 import { createGlobalStyle } from "styled-components"
-import { themes } from "./ColorStyles"
+import { theme } from "./ColorStyles"
 import "@fontsource/be-vietnam"
 export const GlobalStyle = createGlobalStyle`
 * {
   margin: 0;
   padding: 0;
+ 
 }
 
 
