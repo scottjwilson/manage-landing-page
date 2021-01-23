@@ -1,11 +1,15 @@
 import React from "react"
-import { Button } from "../../styles/ComponentStyles"
 import { H1 } from "../../styles/TextStyles"
+import { Wrapper, TextWrap, ButtonWrap, CTAButton } from "./Styles"
 export const CTA = () => {
   return (
-    <div>
-      <H1>Simplify how your team works today.</H1>
-      <Button>Get Started</Button>
-    </div>
+    <Wrapper>
+      <TextWrap>
+        <H1>Simplify how your team works today.</H1>
+      </TextWrap>
+      <ButtonWrap>
+        <CTAButton>Get Started</CTAButton>
+      </ButtonWrap>
+    </Wrapper>
   )
 }

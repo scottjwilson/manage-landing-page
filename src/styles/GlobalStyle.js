@@ -1,6 +1,8 @@
 import { createGlobalStyle } from "styled-components"
 import { theme } from "./ColorStyles"
+
 import "@fontsource/be-vietnam"
+
 export const GlobalStyle = createGlobalStyle`
 * {
   margin: 0;
@@ -24,7 +26,7 @@ p {margin-bottom: 1rem;}
 h1, h2, h3, h4, h5, button {
   margin: 3rem 0 1.38rem;
   font-family: 'Be Vietnam', sans-serif;
-  font-weight: 400;
+  font-weight: 800;
   line-height: 1.3;
 }
 

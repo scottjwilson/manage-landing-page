@@ -1,27 +1,24 @@
 import styled from "styled-components"
-
+import { device } from "../styles/MediaQueries"
 export const H1 = styled.h1`
-  font-size: 2em;
+  font-size: 3rem;
+
+  @media ${device.laptop} {
+    font-size: 4rem;
+  }
 `
 export const H2 = styled.h2`
-  font-weight: normal;
-  font-size: 56px;
-  line-height: 56px;
-`
-export const H3 = styled.h3`
-  font-size: 32px;
-  line-height: 40px;
-`
+  font-size: 2rem;
 
-export const H3Small = styled.h3`
-  font-size: 18px;
-  line-height: 25px;
+  @media ${device.laptop} {
+    font-size: 3rem;
+  }
 `
+export const H3 = styled.h3``
 
-export const H4 = styled.h4`
-  font-size: 24px;
-  line-height: 32px;
-`
+export const H3Small = styled.h3``
+
+export const H4 = styled.h4``
 
 export const BodyIntro = styled.p`
   line-height: 140%;

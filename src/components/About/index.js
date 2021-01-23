@@ -1,9 +1,9 @@
 import React from "react"
-
+import { H2 } from "../../styles/TextStyles"
 export const About = () => {
   return (
     <div>
-      <h2>What’s different about Manage?</h2>
+      <H2>What’s different about Manage?</H2>
       <p>
         Manage provides all the functionality your team needs, without the
         complexity. Our software is tailor-made for modern digital product
